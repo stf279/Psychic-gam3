@@ -6,6 +6,14 @@ let guess = Math.floor(Math.random() * 26);
 
 let myGuess = alpha [guess];
 
+let player = prompt("Please guess a letter:", "");
+
+let win = 0;
+
+let loss = 0;
+
+
+
 
 
 console.log(guess);
